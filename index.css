@@ -20,7 +20,8 @@ nav {
     margin: 0px 40px;
     font-size: larger;
 }
-.navItems > img {
+
+.navItems>img {
     width: 130px;
     cursor: pointer;
 }
@@ -43,4 +44,64 @@ nav {
     padding: 5px 10px;
     border-radius: 6px;
     cursor: pointer;
+}
+
+
+/* write a section css */
+
+
+section {
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sectionItems {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.sectionItems:last-child {
+    align-items: center;
+}
+
+.sectionItems>img {
+    width: 300px;
+}
+#sectionItem1{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    margin: 5px 0px;
+}
+#sectionItem1>img{
+    width: 30px;
+}
+
+#sectionItem2{
+    font-size: 2.6rem;
+    font-weight: bolder;
+    margin: 5px 0px;
+}
+#sectionItem3{
+    font-size: 1.1rem;
+    margin: 5px 0px;
+    color: rgb(86, 82, 82);
+}
+.sectionItems > button{
+    margin: 8px 0px;
+    width: 150px;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#sectionItem4 , #sectionItem5{
+    color: rgb(86, 82, 82);
 }
