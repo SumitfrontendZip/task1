@@ -1,0 +1,46 @@
+/* remove extra space in webpage */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* write a Navbar css */
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    border-bottom: 1px solid rgb(172, 172, 172);
+}
+
+.navItems {
+    margin: 0px 40px;
+    font-size: larger;
+}
+.navItems > img {
+    width: 130px;
+    cursor: pointer;
+}
+
+.navItems>span:first-child {
+    font-weight: bolder;
+    color: black;
+}
+
+.navItems>span {
+    cursor: pointer;
+    color: rgb(100, 99, 99);
+    margin: 0px 12px;
+}
+
+.navItems>button {
+    border: 1px solid rgb(219, 219, 219);
+    background: white;
+    font-weight: bolder;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
