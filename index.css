@@ -159,21 +159,27 @@ section {
 /* write a footer css */
 footer{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 footer > span {
+    margin: 10px 0px;
     color: rgb(86, 82, 82);
     text-transform: capitalize;
 }
 #footerItems{
     margin: 10px 0px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
 #footerItems > img{
     width: 100px;
-    margin: 0px 10px;
+    margin: 10px 10px;
+}
+@media screen and (max-width: 600px){
+    
 }
