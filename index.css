@@ -120,6 +120,41 @@ section {
     color: rgb(86, 82, 82);
 }
 
+@media screen and (max-width: 850px) {
+    .sectionItems>img {
+        width: 250px;
+    }
+    .sectionItems > button{
+        width: 120px;
+    }
+    #sectionItem2{
+        font-size: 2rem;
+    }
+    .sectionItems{
+        margin: 0px 20px;
+    }
+}
+@media screen and (max-width: 600px){
+    section{
+        flex-direction: column-reverse;
+    }
+    .sectionItems{
+        justify-content: center;
+        align-items: center;
+    }
+    .sectionItems > button{
+        width: 220px;
+    }
+    #sectionItem2{
+        font-size: 1.8rem;
+    }
+    #sectionItem3{
+        font-size: 15px;
+        text-wrap: wrap;
+        text-align: center;
+        width: 300px;
+    }
+}
 
 /* write a footer css */
 footer{
