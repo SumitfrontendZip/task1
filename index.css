@@ -45,7 +45,21 @@ nav {
     border-radius: 6px;
     cursor: pointer;
 }
+nav > img{
+    width: 40px;
+    margin: 0px 20px;
+    cursor: pointer;
+    display: none;
+}
+@media screen and (max-width: 920px) {
+    nav > img{
+        display: block;
+    }
+    .navItems>span , .navItems>button{
+        display: none;
+    }
 
+}
 
 /* write a section css */
 
